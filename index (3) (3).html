@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="./Style (2).css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="conteunerheder">
+    <div class="header">
+        <header class="header_botton">
+            <img src="./index.png" alt="" class="img_header">
+            <ul class="pol">
+                 <li class="li_item" > <!-- Нужно обрабатывать клик на пункт меню, добавлен класс   -->
+                    <a href="#">на заказ<!--  Обрати внимание, в href должно быть значение всегда, хотя бы #   -->
+                    <ul class="sub_menu"> <!-- Тебе нужно скрывать-показывать все саб меню, добавлен для него класс   -->
+                        <li  class="header_li" >малышам</li >
+                        <li class="header_li">взрослым</li>
+                    </ul>
+                    </a> 
+                </li>
+                <li class="li_item"> 
+                    <a href="#">малыши</a> 
+                    <ul class="sub_menu">
+                        <li class="header_li">кожаные</li>
+                        <li class="header_li">замшвые</li>
+                    </ul>
+                </li>
+                <li class="li_item"> 
+                    <a href="#">девушки</a> 
+                    <ul class="sub_menu">
+                        <li class="header_li">кожаные</li>
+                        <li class="header_li">замшивые</li>
+                    </ul>
+                </li>
+                <li class="li_item"> 
+                    <a href="#"> мужчины</a>
+                    <ul class="sub_menu">
+                        <li class="header_li">кожаные</li>
+                        <li class="header_li">замшивые</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <input type="text" class="inputSearch" name="Search"> <!-- Если хочешь размещать поле ввода слева, а меню справа, то просто перенеси выше списка  -->
+            <button class="Search">поиск</button>
+            <div class="telefoun">
+                <p>номер телефона консультанта: 
+                    <br>
+                    0991412489
+                                    
+                 </p>
+        </header>
+        
+    </div>
+    <div class="tovar-wrapper">
+        <div class="tovar" >
+            <div class="in"> 
+                <img src="./index.jpeg" class="img_one img_two" alt=""> 
+                <div class="in_two">
+                    <p class="div_found">мужские кожаные туфли 42-го размера <br> фирма :Top-Hole</p>
+                    <div class="zena">1250 грн</div>
+                    <a class="link-buy" onclick="showModal(this)">Купить </a>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="tovar">
+            <div class="in">
+                <img src="./55928Big.jpg" alt=""  class="img_one" >
+                <div class="in_two">
+                    <p class="div_found">мужские кожаные туфли 49-го размера <br> фирма: Top-Hole</p>
+                    <div class="zena">2000 грн</div>
+                    <a class="link-buy" onclick="showModal(this)">Купить</a>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="tovar">
+            <div class="in">
+                <img src="./unnamed.jpg" alt="" class="img_one img_two">
+                <div class="in_two">
+                    <p class="div_found">женские туфли 37-го размера <br> фирма:Top-Hole</p>
+                    <div class="zena">1100 грн</div>
+                    <a class="link-buy" onclick="showModal(this)">Купить</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="tovar">
+            <div class="in">
+                <img src="./images (1).jpeg" alt="" class="img_one img_two">
+                <div class="in_two">
+                    <p class="div_found">мужские туфли 39-го размера <br> фирма:Top-Hole</p>
+                    <div class="zena">800 грн</div>
+                    <a class="link-buy" onclick="showModal(this)">Купить</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="tovar">
+            <div class="in">
+                <img src="./index.jpeg" alt="" class="img_one img_two">
+                <div class="in_two">
+                    <p class="div_found">мужские замшивые туфли 51-го размера <br> фирма:Top-Hole</p>
+                    <div class="zena">1800 грн</div>
+                    <a class="link-buy" onclick="showModal(this)">Купить</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="tovar">
+            <div class="in">
+                <img src="./1918703_tufli_abricot_f_006_chernyy_kozha_natural_naya.jpeg" alt="" class="img_one img_two">
+                <div class="in_two">
+                    <p class="div_found"> женские туфли 35-го размера <br> фирма:Top-Hole</p>
+                    <div class="zena">1400 грн</div>
+                    <a class="link-buy" onclick="showModal(this)">Купить</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+        
+
+        
+
+
+
+</div>
+<footer> <p>присоеденяйтесь к нам в соц сети :</p> 
+    <a href="">вконтакте</a>
+    <a href="">инстаграм</a>
+    <a href="">ютуб</a>
+</footer>
+ <script src="./main (2).js"></script>
+</body>
+</html>
